@@ -1,8 +1,8 @@
-# Project Name
+# DataSync Pro - Example
 
-Is a platform designed for secure and efficient data management. It features user authentication, an admin panel, and advanced search capabilities. Built with FastAPI, Django, and React, it supports PostgreSQL and MySQL, ensuring scalability and reliability.
+DataSync Pro is a platform designed for secure and efficient data management. It features user authentication, an admin panel, and advanced search capabilities. Built with FastAPI, Django, and React, it supports PostgreSQL and MySQL, ensuring scalability and reliability.
 
-## Main Features
+## Main Features 
 - > Authentication with JWT
 - > Administration panel
 - > Advanced search
@@ -46,7 +46,7 @@ Is a platform designed for secure and efficient data management. It features use
 
 ## Project Structure
 ```Bash
-    project
+    project - back
     ├── src
     │   ├── controllers
     │   ├── models
@@ -61,6 +61,18 @@ Is a platform designed for secure and efficient data management. It features use
     ├── package.json
     └── README.md
 
+    project - front
+    ├── src
+    │   ├── components
+    │   ├── pages
+    │   ├── routes
+    │   ├── services
+    │   ├── context
+    │   ├── App.jsx
+    ├── public
+    ├── .env.example
+    ├── package.json
+    └── README.md
 ```
 
 ## Installation and configuration
